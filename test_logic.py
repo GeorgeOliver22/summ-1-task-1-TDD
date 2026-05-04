@@ -7,3 +7,7 @@ class TestPalindrome(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+def test_complex_cases(self):
+    self.assertTrue(is_palindrome("A man a plan a canal Panama"))
+    self.assertTrue(is_palindrome("Madam"))
