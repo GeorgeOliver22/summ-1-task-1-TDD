@@ -3,7 +3,7 @@ from logic import is_palindrome
 
 class TestPalindrome(unittest.TestCase):
     def test_simple_palindrome(self):
-        self.assertTrue(is_palindrome("racecar"))
+        self.assertTrue(is_palindrome("radar"))
 
 if __name__ == '__main__':
     unittest.main()
